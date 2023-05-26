@@ -20,5 +20,8 @@ from shopAPP import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',views.map.as_view(), name='map'),
+    path('index', views.index, name='index'),
+
+
 
 ]
